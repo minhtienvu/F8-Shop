@@ -1,0 +1,45 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    -text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; 
+    /* 100% tuong duong voi 16px => 62.5% tuong duong voi 10px */
+    line-height: 1.6rem; 
+    /* đơn vị rem lấy đơn vị font-size trong root html làm đơn vị tiêu chuẩn */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* grid responsive tuong thich tat ca cac kich co trang web cho cac loai thiet bi*/
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_full-width {
+    width: 100%;
+}
+
+.grid_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
