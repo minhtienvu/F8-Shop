@@ -248,7 +248,7 @@
 /* Authen modal */
 
 .auth-form {
-    width: 400px;
+    width: 500px;
     background-color:var(--white-color);
     border-radius: 5px;
     overflow: hidden;
