@@ -451,12 +451,12 @@
     outline: none;
 }
 
-.header__search-btn:hover{
+.header__search-btn:hover {
     cursor: pointer;
     background-color: #fb6445;
 }
 
-.header__search-btn-icon{ 
+.header__search-btn-icon { 
     font-size: 1.4rem;
     color: var(--white-color);
 }
@@ -465,10 +465,10 @@
     display: block;
 }
 
-.header__search-option{
+.header__search-option {
     position: absolute;
     right: 0;
-    /* top: 100%; */
+    top : 10px;
     width: 130px;
     list-style: none;
     box-shadow: 0 1px 2px #e0e0e0;
