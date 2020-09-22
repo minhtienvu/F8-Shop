@@ -95,7 +95,7 @@ html {
 
 .btn{
     color: var(--text-color);
-    min-width: 142px;
+    min-width: 124px;
     min-height: 36px;
     text-decoration: none;
     border: none;
@@ -110,7 +110,7 @@ html {
     line-height: 1.6rem;
 }
 
-.btn.btn--normal:hover {
+.btn .btn--normal:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
