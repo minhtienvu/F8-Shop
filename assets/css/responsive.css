@@ -42,8 +42,6 @@
         text-align: right;
     }
 
-
-
 }
 
 /* Mobile */
@@ -90,4 +88,12 @@
             top: var(--header-height);
         }
     }
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+
 }
