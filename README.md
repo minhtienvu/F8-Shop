@@ -22,3 +22,5 @@ git branch -D (delete)
 //day code len github
 git remote add origin + <link>
 git push
+
+them narbar(3 gach) vao header va sua lai search cho giao dien mobile
