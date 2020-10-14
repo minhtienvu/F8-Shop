@@ -1027,6 +1027,7 @@
     text-decoration: none;
     color: var(--white-color);
     font-size: 1.4rem;
+    padding: 0 6px;
     line-height: var(--line-height);
     height: calc(var(--line-height)*2);
     overflow: hidden;
